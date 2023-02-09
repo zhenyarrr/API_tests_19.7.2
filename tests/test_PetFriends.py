@@ -82,7 +82,7 @@ def test_add_new_pet_with_invalid_age(name='Kesha', animal_type='parrot', age=in
     assert result[age] is int
 
 
-def test_seccessful_delete_self_pet():
+def test_successful_delete_self_pet():
     """Проверяем возможность удаления питомца"""
 
     #Получаем ключ auth_key и запрашиваем список своих питомцев
